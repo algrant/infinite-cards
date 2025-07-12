@@ -2,12 +2,12 @@
 TBD - currently placeholder with some info about these things...
 
 # looking at lettered pdf
-
+```
 HPIJ
 GOAB
 FEKC
 NMID
-
+```
 # can be constructed into 3 different card variants
 
 1. 4 simple faces
