@@ -58,7 +58,7 @@ def to_grid(faces: list[ImageType], grid_order: str = PRINT_ORDER, face_order: l
                                           (x * (face_image.width // 2), y * (face_image.height // 2)))
     return grid
 
-def new_card_subdirectory(path: str, width: int = 300, height: int = 300) -> None   :
+def new_project(path: str, width: int = 300, height: int = 300) -> None   :
     """Create a new subdirectory for card images."""
     if not os.path.exists(path):
         os.makedirs(path)
@@ -75,7 +75,7 @@ def new_card_subdirectory(path: str, width: int = 300, height: int = 300) -> Non
 
 def main():
     print("Hello from shuffler!")
-    new_card_subdirectory('./test', width = 500, height = 500)
+    new_project('./test', width = 500, height = 500)
 
 if __name__ == "__main__":
     main()

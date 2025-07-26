@@ -1,0 +1,11 @@
+[project]
+name = "photoviewer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=11.3.0",
+    "pyside6>=6.9.1",
+    "watchdog>=6.0.0",
+]
